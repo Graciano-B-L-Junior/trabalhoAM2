@@ -1,0 +1,180 @@
+body{
+	margin: 0px 0px 0px 0px;
+	width: 100%;
+	background-color: #FF9300;
+	font-family: 'Open Sans', sans-serif;
+}
+.conteudo{
+	margin-left: 50px;
+	height: 1000px;
+}
+
+.header{
+	background-color: #B26700;
+	position: relative;
+	width: 100%;
+}
+#logo{
+	height: 240px;
+	width: 240px;
+}
+.menu{
+	display: flex;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	position: absolute;
+	top: 80px;
+	right: 40px;
+	font-size: 30px;
+}
+li{
+	list-style: none;
+	margin-right: 35px;
+	
+}
+li a {
+	text-decoration: none;
+	font-style: oblique;
+}
+.b1:hover {
+	animation: texto;
+	animation-duration: 0.5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+
+}
+.b2:hover {
+	animation: texto;
+	animation-duration: 0.5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+
+}
+.b3:hover {
+	animation: texto;
+	animation-duration: 0.5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+
+}
+
+
+
+@keyframes texto{
+	100%{
+		font-size: 32px;
+	}
+}
+.img1, .img2{
+
+}
+
+.t1, .t2,.t3{
+	width: 350px;
+	margin-left: 60px;
+}
+.t1{
+	position: relative;
+	left: 160px;
+	top: -140px;
+}
+.t2,.t3{
+	position: relative;
+	left: 160px;
+	top: -180px;
+}
+.img3{
+	position: relative;
+	top: -150px;
+}
+.i3{
+	top: -50px;
+	left: 180px;
+	position: relative;
+}
+
+.Trabalhos{
+	position: relative;
+	left: 650px;
+	top: -740px;
+	width: 400px;
+	margin: 0px 0px 0px 0px;
+	border: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	}
+.mySlides{
+	position: absolute;
+	width: 430px;
+	height: 300px;
+	top:18px;
+	left: 40px;
+}
+.t4{
+	position: relative;
+	top: -170px;
+	left:85px;
+	width: 370px;
+}
+.w3-circle{
+	background-color: black;
+	font-size: 12px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	color: white;
+}
+
+#direita,#esquerda{
+	position: relative;
+	margin: 0px 0px 0px 0px;
+}
+#direita{
+	top: 120px;
+	right: -488px;
+}
+#esquerda{
+	left: -58px;
+	top: 120px;
+}
+
+.rodape{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	background-color: black;
+	height: 160px;
+	color: white;
+}
+.separar{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.autoral{
+	text-align: center;
+}
+.img4, .img5{
+	width: 24px;
+	height: 24px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.rodapelist{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+h3{
+	text-align: center;
+}
+ul li p{
+	margin: 0px 0px 0px 0px;
+	justify-content: center;
+}
+
+#primeiro{
+	padding-left: 50px;
+}
+.img5{
+	position: relative;
+	left:60px;
+}
+

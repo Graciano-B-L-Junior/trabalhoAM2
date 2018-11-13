@@ -1,0 +1,154 @@
+body{
+	margin: 0px 0px 0px 0px;
+	width: 100%;
+	background-color: #FF9300;
+	font-family: 'Open Sans', sans-serif;
+}
+.conteudo{
+	margin-left: 50px;
+	height: 1000px;
+}
+.header{
+	background-color: #B26700;
+	position: relative;
+	width:100%;
+}
+.b1:hover {
+	animation: texto;
+	animation-duration: 0.5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+
+}
+.b2:hover {
+	animation: texto;
+	animation-duration: 0.5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+
+}
+.b3:hover {
+	animation: texto;
+	animation-duration: 0.5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+
+}
+@keyframes texto{
+	100%{
+		font-size: 32px;
+	}
+}
+#logo{
+	height: 240px;
+	width: 240px;
+}
+.menu{
+	display: flex;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	position: absolute;
+	top: 80px;
+	right: 40px;
+	font-size: 30px;
+}
+
+.Trabalhos{
+	position: relative;
+	height: 1000px;
+}
+.mySlides{
+	top: 40px;
+	left: 120px;
+	width: 590px;
+	height: 405px;
+	position: relative;
+}
+.w3-circle{
+	background-color: black;
+	font-size: 22px;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	color: white;
+}
+.img3{
+	width: 700px;
+	height: 700px;
+	position: relative;
+	top: -480px;
+	left: -73px;
+}
+.i3{
+	position: relative;
+	left: 280px;
+	font-size: 40px;
+	width: 200px;
+	margin: 0px 0px 0px 0px;
+}
+.txt4{
+	position: relative;
+	top: -950px;
+	left: 894px;
+	font-size: 22px;
+	width: 360px;
+}
+#direita,#esquerda{
+	position: relative;
+	top: -800px;
+}
+#direita{
+	left: 703px;
+}
+#esquerda{
+	left: -20px;
+}
+li{
+	list-style: none;
+	margin-right: 35px;
+	
+}
+li a {
+	text-decoration: none;
+	font-style: oblique;
+}
+.rodape{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	background-color: black;
+	height: 160px;
+	color: white;
+	position: relative;
+	top: 10px;
+}
+.separar{
+}
+.autoral{
+	text-align: center;
+}
+.img4, .img5{
+	width: 24px;
+	height: 24px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.rodapelist{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+h3{
+	text-align: center;
+}
+ul li p{
+	margin: 0px 0px 0px 0px;
+	justify-content: center;
+}
+
+#primeiro{
+	padding-left: 50px;
+}
+.img5{
+	position: relative;
+	left:60px;
+}

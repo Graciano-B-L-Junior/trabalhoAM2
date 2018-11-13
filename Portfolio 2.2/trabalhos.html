@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<link rel="stylesheet" type="text/css" href="trabalhos.css">
+<title>Portfolio Graciano Junior</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<div class="header">
+		<img src="logo2.png" id="logo" alt="Logomarca do profissional, cor em azul marinho">
+		<ul class="menu">
+			<li class="b1"><a href="quemsoueu.html"><h4>Quem sou eu</h4></a></li>
+			<li class="b2"><a href="trabalhos.html"><h4>Trabalhos</h4></a></li>
+			<li class="b3"><a href="contato.html"><h4>Contato</h4></a></li>
+		</ul>
+	</div>
+	
+	<div class="conteudo">
+		<div class="Trabalhos">
+		<h2 class="i3">Trabalhos</h2>
+
+		<img src="imagens/Trabalhos/app.png" class="mySlides" id="i1" alt="Foto do prototipo referente ao aplicativo adoção de bolso">
+		<img src="imagens/Trabalhos/infografico.png" class="mySlides" id="i2" alt="Imagem do infografico da jornada do herói">
+		<img src="imagens/Trabalhos/lettering.png" class="mySlides" id="i3" alt="Design do trabalho feito em design em letras, lettering">
+		<img src="imagens/Trabalhos/redesign.png" class="mySlides" id="i4" alt="redesign do jogo kingdom hearts 2, mudança na HUD do game">
+		
+		<button type="button" class="w3-circle" id="esquerda" onclick="plusDivs(-1)">E</button>
+		<button type="button" class="w3-circle" id="direita" onclick="plusDivs(+1)">D</button>
+		
+		<img src="monitor.png" class="img3" alt="imagem de um monitor em que são mostradas as imagens dos trabalhos realizados">
+		
+		<p class="txt4" id="t4">Lorem ipsum habitant adipiscing cursus lectus egestas, placerat maecenas dui lectus cursus, nostra placerat phasellus dui conubia. pharetra ipsum aliquam dictumst eleifend pharetra porta neque quisque, ullamcorper iaculis sociosqu curabitur ut convallis mattis, viverra lorem eu netus non habitant justo.</p>
+	</div>
+		
+		<script>
+			var slideIndex = 0;
+		showDivs(slideIndex);
+		var text;
+
+		function plusDivs(n) {
+		  showDivs(slideIndex += n);
+		}
+
+		function showDivs(n) {
+		  var i;
+		  var x = document.getElementsByClassName("mySlides");
+		  if (n > x.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = x.length}
+		  for (i = 0; i < x.length; i++) {
+		     x[i].style.display = "none";  
+		  }
+		  x[slideIndex-1].style.display = "block";
+			  if (slideIndex == 1) {
+			text=document.getElementById("t4");
+			text.innerHTML="Projeto do aplicativo adoção de bolso, atualmente está no estágio de prototipo, o objetivo do app é ajudar pessoas que queiram adotar crianças, e mais certamente para o grupo e adoção Rede Adotiva";
+		}
+		else if (slideIndex == 2){
+			text = 	document.getElementById("t4");
+			text.innerHTML="infográfico sobre a jornada do herói. O objetivo dele é mostrar de maneira clara e objetiva as etapas da Jornada do herói";
+		}
+		else if (slideIndex == 3){
+			text =document.getElementById("t4");
+			text.innerHTML="Trabalho da cadeira de comunicação visual, objetivo criar um anúncio utilizando apenas letras e sem mais nenhum elemento grafico, para alguma empresa escolhida pelos alunos, no meu caso a CACAU SHOW";
+		}
+		else if(slideIndex == 4){
+			text=document.getElementById("t4");
+			text.innerHTML="Trabalhos da cadeira de DIG -'Design de interfaces gráficas', o objetivo era mudar o design do jogo, mais especificamente a HUD do game Kingom Hearts 2";
+		}
+	}
+	</script>
+
+</div>
+
+<div class="rodape">
+	
+	<div class="separar">
+	
+	<p class="autoral">Copyright © 2018 | Graciano Barbosa Lima Junior</p>
+	
+	<h3>Contato</h3>
+	
+	<ul class="rodapelist">
+		<li id="primeiro"><img src="fone.png" class="img4" alt="ícone de um telefone"><p>9 8204-7170</p></li>
+		<li id="segundo"><img src="email.png" class="img5" alt="ícone de um email"><p>gracianobarbosalimajunior@gmail.com</p></li>
+	</ul>
+	
+	</div>
+</div>
+</body>
+</html>

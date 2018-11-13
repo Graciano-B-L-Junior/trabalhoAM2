@@ -1,0 +1,129 @@
+body{
+	margin: 0px 0px 0px 0px;
+	width: 100%;
+	background-color: #FF9300;
+	font-family: 'Open Sans', sans-serif;
+}
+.conteudo{
+	margin-left: 50px;
+	height: 1000px;
+}
+.header{
+	background-color: #B26700;
+	position: relative;
+	width:100%;
+}
+.b1:hover {
+	animation: texto;
+	animation-duration: 0.5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+
+}
+.b2:hover {
+	animation: texto;
+	animation-duration: 0.5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+
+}
+.b3:hover {
+	animation: texto;
+	animation-duration: 0.5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+
+}
+@keyframes texto{
+	100%{
+		font-size: 32px;
+	}
+}
+#logo{
+	height: 240px;
+	width: 240px;
+}
+.menu{
+	display: flex;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	position: absolute;
+	top: 80px;
+	right: 40px;
+	font-size: 30px;
+}
+.titulo{
+	position: relative;
+	width: 400px;
+	left: 149px;
+	font-size: 40px;
+}
+
+.t1{
+	position: relative;
+	width: 400px;
+	left: 500px;
+	top: -245px;
+	font-size: 22px;
+
+}
+
+.img1{
+	position: relative;
+	width: 300px;
+	height:300px;
+	left: 150px;
+}
+
+
+
+
+li{
+	list-style: none;
+	margin-right: 35px;
+	
+}
+li a {
+	text-decoration: none;
+	font-style: oblique;
+}
+.rodape{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	background-color: black;
+	height: 160px;
+	color: white;
+	position: relative;
+	top: 10px;
+}
+.separar{
+}
+.autoral{
+	text-align: center;
+}
+.img4, .img5{
+	width: 24px;
+	height: 24px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.rodapelist{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+h3{
+	text-align: center;
+}
+ul li p{
+	margin: 0px 0px 0px 0px;
+	justify-content: center;
+}
+
+#primeiro{
+	padding-left: 50px;
+}
+.img5{
+	position: relative;
+	left:60px;
+}
